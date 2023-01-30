@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>login</title>
+    <title>login登录</title>
     <style>
       body{
         text-align: center;
@@ -21,6 +21,7 @@
       username：<input name="user" type="text"><br><br>
       password：<input name="pass" type="password"><br><br>
       <button type="submit">登录</button>
+      <a href="register.jsp">无账号，去注册</a>
     </form>
   </body>
 </html>
